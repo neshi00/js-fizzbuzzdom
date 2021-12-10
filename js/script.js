@@ -1,8 +1,8 @@
 // MILESTONE 1
 
-for (let i = 1; i <= 70; i++) {
+for (let i = 1; i <= 100; i++) {
     /* crea un ciclo for che parte da 1 
-    fino ad arrivare a 70 compreso
+    fino ad arrivare a 100 compreso
     e che incrementa di 1 ogni volta */
 
     // se hai multipli SIA di 3 CHE di 5 esegui comando (nel console.log) => FizzBuzz
@@ -29,7 +29,7 @@ for (let i = 1; i <= 70; i++) {
 // agganciati alla classe HTML milestone-two
 const milestoneTwo = document.querySelector('.milestone-two');
 
-for (let i = 1; i <= 70; i++) {
+for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0 ) {
         /* a condizione verificata, esegui comando => FizzBuzz
         dove? nel container HTML identificato in precedenza => .container-boxes */
@@ -51,7 +51,7 @@ for (let i = 1; i <= 70; i++) {
 
 const containerBoxes = document.querySelector('.container-boxes');
 
-for (let i = 1; i <= 70; i++) {
+for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         // a condizione verificata, esegui comando => aggiungi tag con relative
         // classi e concatena stringa all'interno di ${}
